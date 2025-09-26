@@ -2,5 +2,5 @@ streamlit
 pdfminer.six
 sentence-transformers
 scikit-learn
-groq
+openai
 python-dotenv
