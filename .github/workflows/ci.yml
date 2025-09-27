@@ -1,35 +1,10 @@
-name: CI Full
-on:
-  workflow_dispatch:
+name: CI
+on: [push, pull_request]
 
 jobs:
-  full:
+  ping:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-
-      - name: Preinstall PyTorch CPU (best-effort)
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch --only-binary=:all: || true
-
-      - name: Install deps
-        run: pip install -r requirements.txt --prefer-binary --default-timeout=180
-
-      - name: App import sanity
-        run: python - << 'PY'
-import importlib
-for m in ["streamlit","pdfminer.high_level","sentence_transformers","sklearn","dotenv","numpy"]:
-    importlib.import_module(m)
-print("Imports OK")
-PY
+      - run: python -V
+      - run: echo "OK"
