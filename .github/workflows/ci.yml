@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python - << 'PY'
+import importlib, sys
+mods = ["streamlit","pdfminer.high_level","sentence_transformers","sklearn","dotenv","groq","openai","azure.storage.blob","numpy"]
+missing = []
+for m in mods:
+    try:
+        importlib.import_module(m)
+    except Exception as e:
+        missing.append((m, str(e)))
+if missing:
+    print("Missing or failed imports:", missing)
+    sys.exit(1)
+print("Environment OK")
+PY
+      - run: python -m pytest -q
