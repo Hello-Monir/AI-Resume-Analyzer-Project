@@ -1,6 +1,6 @@
 # AI-Resume-Analyzer-Project
 The AI Resume Analyzer is an intelligent web-based tool designed to help job seekers evaluate and enhance their resumes by comparing them directly against a specific job description.
-Watch my [Pitch Deck]<div style="position: relative; padding-bottom: 46.875%; height: 0;"><iframe src="https://www.loom.com/embed/55524b2fc9b4428e8e33848cfd164f8f?sid=cf693b77-112b-4fd6-927b-c6122976598a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> for a Demo and detailed explanation
+Watch my [Pitch Deck](https://www.loom.com/share/55524b2fc9b4428e8e33848cfd164f8f?sid=33577897-4cd5-4968-8d5c-50fc47a838fa)for a Demo and detailed explanation
 
 ## 🔍 What Does This Project Do?
 ### 1. Resume Text Extraction
