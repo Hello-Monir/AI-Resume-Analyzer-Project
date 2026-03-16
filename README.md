@@ -24,7 +24,7 @@ Users can easily download the detailed analysis for reference, making it conveni
 
 ---
 
-### 🎯 **Why Use This Tool?**
+### 🎯 **Why Use This Tool?** 
 
 - **Optimize for ATS**: Understand how your resume fares in automated screenings.
 - **Get AI Insights**: Receive professional-quality feedback without hiring a consultant.
