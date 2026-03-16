@@ -6,7 +6,7 @@ Watch my [Pitch Deck](https://www.loom.com/share/55524b2fc9b4428e8e33848cfd164f8
 ### 1. Resume Text Extraction
 Users upload their resumes in PDF format, and the system automatically extracts the raw text for further analysis.
 
-### 2. Job Description Input
+### 2. Job Description Input  
 The user provides the job description for the position they are targeting. This sets the criteria against which the resume will be evaluated.
 
 ### 3. ATS Similarity Score
