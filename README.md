@@ -31,4 +31,4 @@ Users can easily download the detailed analysis for reference, making it conveni
 - **Improve Success Rate**: Apply data-driven improvements to increase your chances of getting shortlisted.
 
 
-This project is perfect for job seekers who want to make sure their resumes are tailored to specific roles, career coaches looking for efficient feedback tools, or developers seeking to explore AI’s capabilities in HR-tech workflows.
+This project is perfect for job seekers who want to make sure their resumes are tailored to specific roles, career coaches looking for efficient feedback tools, or developers seeking to explore AI’s capabilities in HR-tech workflows.  
