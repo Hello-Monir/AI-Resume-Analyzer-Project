@@ -7,7 +7,7 @@ Watch my [Pitch Deck](https://www.loom.com/share/55524b2fc9b4428e8e33848cfd164f8
 Users upload their resumes in PDF format, and the system automatically extracts the raw text for further analysis.
 
 ### 2. Job Description Input  
-The user provides the job description for the position they are targeting. This sets the criteria against which the resume will be evaluated.
+The user provides the job description for the position they are targeting. This sets the criteria against which the resume will be evaluated. 
 
 ### 3. ATS Similarity Score
 Using Sentence Transformers (BERT-based model), the tool calculates a similarity score between the resume and the job description. This score reflects how well the resume matches keywords, context, and requirements typically scanned by ATS software.
