@@ -15,7 +15,7 @@ Using Sentence Transformers (BERT-based model), the tool calculates a similarity
 ### 4. AI-Powered Resume Evaluation
 With the help of Groq's Llama-based LLM, the tool generates a detailed, human-readable evaluation report. The AI analyzes various factors such as skills, experience, and qualifications, assigning a score (out of 5) for each aspect and using emojis (✅, ❌, ⚠️) to quickly highlight strengths and gaps. 
 
-### 5. Actionable Feedback
+### 5. Actionable Feedback 
 The AI not only scores your resume but also provides personalized suggestions on how to improve it, helping candidates refine their applications before submission. 
 
 ### 6. Downloadable Report 
