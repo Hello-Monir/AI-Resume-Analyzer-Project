@@ -3,7 +3,7 @@ The AI Resume Analyzer is an intelligent web-based tool designed to help job see
 Watch my [Pitch Deck](https://www.loom.com/share/55524b2fc9b4428e8e33848cfd164f8f?sid=33577897-4cd5-4968-8d5c-50fc47a838fa) for a Demo and detailed explanation    
  
 ## 🔍 What Does This Project Do?    
-### 1. Resume Text Extraction     
+### 1. Resume Text Extraction
 Users upload their resumes in PDF format, and the system automatically extracts the raw text for further analysis.
 
 ### 2. Job Description Input  
