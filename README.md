@@ -18,7 +18,7 @@ With the help of Groq's Llama-based LLM, the tool generates a detailed, human-re
 ### 5. Actionable Feedback 
 The AI not only scores your resume but also provides personalized suggestions on how to improve it, helping candidates refine their applications before submission. 
 
-### 6. Downloadable Report 
+### 6. Downloadable Report
 Users can easily download the detailed analysis for reference, making it convenient to track and implement the suggested changes.
 
 
