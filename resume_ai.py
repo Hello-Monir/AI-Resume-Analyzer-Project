@@ -16,12 +16,7 @@ def suggest_improvements(cos_sim: float, overlap_score: float) -> Dict[str, str]
         tips.append("Resume already aligns well. Add role-specific metrics to stand out.")
     return {"suggestions": "\n- " + "\n- ".join(tips)}
 
-def llm_rewrite_prompt(resume_text: str, jd_text: str) -> str:
-    return (
-        "Rewrite the following resume bullet points to better match the job description while staying truthful. "
-        "Use crisp action verbs and include measurable outcomes. "
-        "Resume:\n" + resume_text[:4000] + "\n\nJob Description:\n" + jd_text[:4000]
-    )
+
 
 def try_groq_rewrite(resume_text: str, jd_text: str) -> Optional[str]:
     api_key = os.getenv("GROQ_API_KEY")
